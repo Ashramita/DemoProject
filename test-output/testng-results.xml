@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Title not Matching]]>
+    </line>
+    <line>
+      <![CDATA[Title Matching]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-11-02T14:19:06 IST" name="Default suite" finished-at="2022-11-02T14:19:47 IST" duration-ms="41505">
+    <groups>
+    </groups>
+    <test started-at="2022-11-02T14:19:06 IST" name="Default test" finished-at="2022-11-02T14:19:47 IST" duration-ms="41505">
+      <class name="practice.AdvanceReports">
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:practice.AdvanceReports@732c2a62]" started-at="2022-11-02T14:19:06 IST" name="generateReport" finished-at="2022-11-02T14:19:06 IST" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:practice.AdvanceReports@732c2a62]" started-at="2022-11-02T14:19:06 IST" name="setUp" finished-at="2022-11-02T14:19:10 IST" duration-ms="3952" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="failTest()[pri:0, instance:practice.AdvanceReports@732c2a62]" started-at="2022-11-02T14:19:10 IST" name="failTest" finished-at="2022-11-02T14:19:10 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Title not Matching]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- failTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:practice.AdvanceReports@732c2a62]" started-at="2022-11-02T14:19:10 IST" name="tearDown" finished-at="2022-11-02T14:19:26 IST" duration-ms="16458" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:practice.AdvanceReports@732c2a62]" started-at="2022-11-02T14:19:26 IST" name="setUp" finished-at="2022-11-02T14:19:31 IST" duration-ms="4560" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="passtest()[pri:0, instance:practice.AdvanceReports@732c2a62]" started-at="2022-11-02T14:19:31 IST" name="passtest" finished-at="2022-11-02T14:19:31 IST" duration-ms="7" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Title Matching]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- passtest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:practice.AdvanceReports@732c2a62]" started-at="2022-11-02T14:19:31 IST" name="tearDown" finished-at="2022-11-02T14:19:47 IST" duration-ms="16311" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- practice.AdvanceReports -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
